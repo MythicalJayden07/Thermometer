@@ -14,15 +14,14 @@ I designed this to learn the ropes of hardware engineering, custom PCB routing, 
 
 Here is the electrical logic behind the build. It shows how the microcontroller links up with the 128x32 OLED screen over the I2C bus and connects to the digital temperature probe. I added pull-up resistors to keep the data lines stable and prevent signal noise inside the case.
 
-![Project Schematic]("C:\Users\Jayden\OneDrive\Pictures\Screenshots 1\Screenshot 2026-05-12 012002.png")
+"C:\Users\Jayden\OneDrive\Pictures\Screenshots 1\Screenshot 2026-05-12 012002.png"
 
 ---
 
 ## 🎛️ The PCB Layout
 
 This is the custom 35mm wide board routed in KiCad. Since space inside a cylinder is super tight, everything had to be placed strategically. The components use low-profile footprints, and the board edges are perfectly sized to slide straight into the 3D-printed internal rails without rattling.
-
-![PCB Layout]("C:\Users\Jayden\OneDrive\Pictures\Screenshots 1\Screenshot 2026-05-12 011955.png")
+"C:\Users\Jayden\OneDrive\Pictures\Screenshots 1\Screenshot 2026-05-12 011955.png"
 
 ---
 
@@ -32,7 +31,7 @@ The enclosure modeled in Fusion 360. It’s a two-part interlocking cylinder tha
 
 To get the rectangular OLED window to sit perfectly flat on a curved surface, I used a tangent-plane projection to punch the cutout. I also added a dedicated 5mm circular hole right at the dead center of the bottom face so the temperature probe wires can pass through cleanly and pop out the base.
 
-![CAD Design]("C:\Users\Jayden\OneDrive\Pictures\Screenshots 1\Screenshot 2026-05-25 111834.png") "C:\Users\Jayden\OneDrive\Pictures\Screenshots 1\Screenshot 2026-05-25 112544.png"
+"C:\Users\Jayden\OneDrive\Pictures\Screenshots 1\Screenshot 2026-05-25 111834.png" "C:\Users\Jayden\OneDrive\Pictures\Screenshots 1\Screenshot 2026-05-25 112544.png"
 
 ---
 
