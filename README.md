@@ -57,17 +57,21 @@ This is my second official hardware repo! Messing around with CAD timelines and 
 ## BOM
 [Thermometer.csv](https://github.com/user-attachments/files/28411570/Thermometer.csv)
 
----"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
-"A1","1","Arduino_Nano_v3.x","","","Excluded from board","Module:Arduino_Nano","http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
-"BT1","1","Battery_Cell","","","","Battery:BatteryHolder_Keystone_3002_1x2032",""
-"BZ1","1","Buzzer","","","","Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm",""
-"C1","1","C","","","Excluded from board","",""
-"R1","1","4.7k","","","","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",""
-"R2","1","5.6k","","","","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",""
-"U1","1","ATtiny85-20P","","","Excluded from board","Package_DIP:DIP-8_W7.62mm","http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf"
-"U2","1","ATtiny85-20P","","","","Package_DIP:DIP-8_W7.62mm","http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf"
-"U3","1","DS18B20","","","","Package_TO_SOT_THT:TO-92_Inline","http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-"U4","1","ER_OLEDM0.91_1x-I2C","","","","Display:ER_OLEDM0.91_1x-I2C","https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
+---
+
+| Reference | Qty | Value | Footprint | Exclude Status | Datasheet | Purchase Link |
+| :--- | :---: | :--- | :--- | :--- | :---: | :---: |
+| **A1** | 1 | Arduino_Nano_v3.x | `Module:Arduino_Nano` | Excluded from board | [Datasheet](http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf) | [Buy Here](https://robu.in/product/arduino-nano-board-3-0-with-ch340-chip-unsoldered/) |
+| **BT1** | 1 | Battery_Cell | `Battery:BatteryHolder_Keystone_3002_1x2032` | — | — | [Buy Here](https://www.digikey.in/en/products/detail/keystone-electronics/3002/227444?msockid=2353f8918b6f63df132eeff98ada62c1) |
+| **BZ1** | 1 | Buzzer | `Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm` | — | — | [Buy Here](https://mou.sr/3MZ5Tfb) |
+| **C1** | 1 | C | — | Excluded from board | — | [Buy Here](https://in.element14.com/chemi-con/ekmg160ell100me11d/aluminum-electrolytic-capacitor/dp/1686765) |
+| **R1** | 1 | 4.7k | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` | — | — | [Buy Here](https://robu.in/product/4-7k-ohm-0-25w-metal-film-resistor-pack-of-100/) |
+| **R2** | 1 | 5.6k | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` | — | — | [Buy Here](https://a.co/d/0f5nhf8v) |
+| **U2** | 1 | ATtiny85-20P | `Package_DIP:DIP-8_W7.62mm` | — | [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf) | [Buy Here](https://mou.sr/3MYk2cD) |
+| **U3** | 1 | DS18B20 | `Package_TO_SOT_THT:TO-92_Inline` | — | [Datasheet](http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf) | [Buy Here](https://amzn.in/d/0bOUQO8z) |
+| **U4** | 1 | ER_OLEDM0.91_1x-I2C | `Display:ER_OLEDM0.91_1x-I2C` | — | [Datasheet](https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf) | [Buy Here](https://robu.in/product/0-91-inch-128x32-i2c-iic-serial-blue-oled-lcd-display-module/) |
+| — | 1 | CR2032 Battery | Physical Coin Cell (3V Lithium) | — | — | [Buy Here](https://a.co/d/0gqPE7Ru) |
+
 
 
 
