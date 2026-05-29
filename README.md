@@ -55,21 +55,21 @@ To get the rectangular OLED window to sit perfectly flat on a curved surface, I 
 This is my second official hardware repo! Messing around with CAD timelines and PCB footprints has been a journey, but seeing it all come together is awesome. 
 
 ## BOM
-"C:\Users\Jayden\OneDrive\ドキュメント\marcopad\Thermometer\Thermometer.csv" 
----
+[Thermometer.csv](https://github.com/user-attachments/files/28411570/Thermometer.csv)
 
-## 📦 Bill of Materials (BOM)
+---"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"A1","1","Arduino_Nano_v3.x","","","Excluded from board","Module:Arduino_Nano","http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
+"BT1","1","Battery_Cell","","","","Battery:BatteryHolder_Keystone_3002_1x2032",""
+"BZ1","1","Buzzer","","","","Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm",""
+"C1","1","C","","","Excluded from board","",""
+"R1","1","4.7k","","","","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",""
+"R2","1","5.6k","","","","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",""
+"U1","1","ATtiny85-20P","","","Excluded from board","Package_DIP:DIP-8_W7.62mm","http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf"
+"U2","1","ATtiny85-20P","","","","Package_DIP:DIP-8_W7.62mm","http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf"
+"U3","1","DS18B20","","","","Package_TO_SOT_THT:TO-92_Inline","http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+"U4","1","ER_OLEDM0.91_1x-I2C","","","","Display:ER_OLEDM0.91_1x-I2C","https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
 
-These are the exact components used to assemble the **KRYO-VALE** active board. All footprints match standard, easy-to-source through-hole components.
 
-| Reference | Qty | Value | Component Description | Footprint Type |
-| :--- | :---: | :--- | :--- | :--- |
-| **U2** | 1 | ATtiny85-20P | 8-bit AVR Microcontroller (The Brains) | `Package_DIP:DIP-8_W7.62mm` |
-| **U3** | 1 | DS18B20 | Digital Temperature Sensor | `Package_TO_SOT_THT:TO-92_Inline` |
-| **U4** | 1 | 0.91" OLED | Waveshare / BuyDisplay I2C Screen | `Display:ER_OLEDM0.91_1x-I2C` |
-| **R1** | 1 | 4.7kΩ | Pull-up Resistor | `Resistor_THT:R_Axial_DIN0207...` |
-| **R2** | 1 | 5.6kΩ | Pull-up Resistor | `Resistor_THT:R_Axial_DIN0207...` |
-| **BT1** | 1 | CR2032 | 3V Coin Cell Battery Holder | `Battery:BatteryHolder_Keystone_3002` |
-| **BZ1** | 1 | Buzzer | TDK Magnetic Audio Indicator | `Buzzer_Beeper:Buzzer_TDK_PS1240...` |
+
 
 
