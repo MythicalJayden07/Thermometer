@@ -10,7 +10,7 @@ I designed this to learn the ropes of hardware engineering, custom PCB routing, 
 
 ---
 
-## 🔌 The Schematic
+##  The Schematic
 
 Here is the electrical logic behind the build. It shows how the microcontroller links up with the 128x32 OLED screen over the I2C bus and connects to the digital temperature probe. I added pull-up resistors to keep the data lines stable and prevent signal noise inside the case.
 
@@ -19,7 +19,7 @@ Here is the electrical logic behind the build. It shows how the microcontroller 
 
 ---
 
-## 🎛️ The PCB Layout
+##  The PCB Layout
 
 This is the custom 35mm wide board routed in KiCad. Since space inside a cylinder is super tight, everything had to be placed strategically. The components use low-profile footprints, and the board edges are perfectly sized to slide straight into the 3D-printed internal rails without rattling.
 <img width="936" height="756" alt="Screenshot 2026-05-12 011945" src="https://github.com/user-attachments/assets/b5a4a94d-4167-462f-9ad7-74184aa7e96f" />
@@ -27,7 +27,7 @@ This is the custom 35mm wide board routed in KiCad. Since space inside a cylinde
 
 ---
 
-## 📐 The CAD Design
+##  The CAD Design
 
 The enclosure modeled in Fusion 360. It’s a two-part interlocking cylinder that uses a lip-and-groove joint to snap-lock shut without needing a single screw. 
 
@@ -42,7 +42,7 @@ To get the rectangular OLED window to sit perfectly flat on a curved surface, I 
 
 ---
 
-## 🛠️ How it Goes Together
+##  How it Goes Together
 
 1. **Print the Case:** 3D print the two shell halves. They use a lip-and-groove joint to snap lock together tightly.
 2. **Solder the Board:** Populate the PCB with the resistors, headers, and components.
@@ -51,7 +51,7 @@ To get the rectangular OLED window to sit perfectly flat on a curved surface, I 
 
 ---
 
-## 👋 About Me
+##  About Me
 This is my second official hardware repo! Messing around with CAD timelines and PCB footprints has been a journey, but seeing it all come together is awesome. 
 
 ## BOM
