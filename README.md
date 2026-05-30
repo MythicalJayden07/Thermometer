@@ -38,6 +38,9 @@ To get the rectangular OLED window to sit perfectly flat on a curved surface, I 
 <img width="464" height="631" alt="Screenshot 2026-05-25 112544" src="https://github.com/user-attachments/assets/7b91b519-4dca-4e62-aeff-906fb3a5f31e" />
 <img width="354" height="314" alt="Screenshot 2026-05-25 112444" src="https://github.com/user-attachments/assets/1130ed86-2911-4fd9-93f8-8ce3fff45fef" />
 <img width="607" height="633" alt="Screenshot 2026-05-25 111834" src="https://github.com/user-attachments/assets/476bb7e1-7534-4ff3-9007-a4b4a9094766" />
+<img width="359" height="792" alt="Screenshot 2026-05-30 053932" src="https://github.com/user-attachments/assets/c943c289-bdf2-42ee-8a6c-7ed2f6322395" />
+<img width="717" height="669" alt="Screenshot 2026-05-30 053940" src="https://github.com/user-attachments/assets/40234917-ad92-4909-b80e-68460963ea9b" />
+<img width="778" height="455" alt="Screenshot 2026-05-30 053953" src="https://github.com/user-attachments/assets/23d0039a-78a6-4fb9-8a5b-239d2d42f6cf" />
 
 
 ---
