@@ -46,11 +46,8 @@ To get the rectangular OLED window to sit perfectly flat on a curved surface, I 
 ---
 
 ##  How it Goes Together
-
-1. **Print the Case:** 3D print the two shell halves. They use a lip-and-groove joint to snap lock together tightly.
-2. **Solder the Board:** Populate the PCB with the resistors, headers, and components.
-3. **Flash it:** Flash the firmware onto the micro-controller.
-4. **Assembly:** Slide the PCB into the case rails, push the sensor through the bottom hole, and snap the handle shut.
+They use a lip-and-groove joint to snap lock together tightly.
+ the PCB sits tightly in the cylinder , enclosed by a ledge on the top part of the case,which allows no room for any sort of loose movement .
 
 ---
 
