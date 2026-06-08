@@ -31,28 +31,19 @@ This is the custom 35mm wide board routed in KiCad. Since space inside a cylinde
 
 The enclosure modeled in Fusion 360. It’s a two-part interlocking cylinder that uses a lip-and-groove joint to snap-lock shut without needing a single screw. 
 
-To get the rectangular OLED window to sit perfectly flat on a curved surface, I used a tangent-plane projection to punch the cutout. I also added a dedicated 5mm circular hole right at the dead center of the bottom face so the temperature probe wires can pass through cleanly and pop out the base.
+I made a window for the OLED.I also made a 8mm diametere probe hole ,for the temperature sensor.The pcb will be screwed onto the custom pcb rail on the thermometer.
 <img width="947" height="690" alt="Screenshot 2026-05-12 011955" src="https://github.com/user-attachments/assets/717ee9be-201d-42c1-9864-ae77d266d9c4" />
 <img width="1918" height="1075" alt="Screenshot 2026-05-12 235535" src="https://github.com/user-attachments/assets/33de7286-8f26-40a5-8809-a739388018fc" />
-<img width="406" height="613" alt="Screenshot 2026-05-25 112413" src="https://github.com/user-attachments/assets/4b2cecb1-a9e5-4987-849c-88948dad647f" />
-<img width="464" height="631" alt="Screenshot 2026-05-25 112544" src="https://github.com/user-attachments/assets/7b91b519-4dca-4e62-aeff-906fb3a5f31e" />
-<img width="354" height="314" alt="Screenshot 2026-05-25 112444" src="https://github.com/user-attachments/assets/1130ed86-2911-4fd9-93f8-8ce3fff45fef" />
-<img width="607" height="633" alt="Screenshot 2026-05-25 111834" src="https://github.com/user-attachments/assets/476bb7e1-7534-4ff3-9007-a4b4a9094766" />
-<img width="359" height="792" alt="Screenshot 2026-05-30 053932" src="https://github.com/user-attachments/assets/c943c289-bdf2-42ee-8a6c-7ed2f6322395" />
-<img width="717" height="669" alt="Screenshot 2026-05-30 053940" src="https://github.com/user-attachments/assets/40234917-ad92-4909-b80e-68460963ea9b" />
-<img width="778" height="455" alt="Screenshot 2026-05-30 053953" src="https://github.com/user-attachments/assets/23d0039a-78a6-4fb9-8a5b-239d2d42f6cf" />
+<img width="1386" height="564" alt="Screenshot 2026-06-02 175309" src="https://github.com/user-attachments/assets/e14b5002-3b7e-4c65-8a6e-67fa85a4d16a" />
+<img width="752" height="512" alt="Screenshot 2026-06-02 175112" src="https://github.com/user-attachments/assets/65e05955-1648-4761-8bde-df512d0ad1c9" />
+<img width="1020" height="649" alt="Screenshot 2026-06-02 175100" src="https://github.com/user-attachments/assets/23fec7e5-2546-4a1d-b94f-a606308dfcad" />
+<img width="1071" height="564" alt="Screenshot 2026-06-02 175043" src="https://github.com/user-attachments/assets/c21c7c95-cb9c-4c30-911b-51d9ca20b40e" />
 
 
----
 
-##  How it Goes Together
-They use a lip-and-groove joint to snap lock together tightly.
- the PCB sits tightly in the cylinder , enclosed by a ledge on the top part of the case,which allows no room for any sort of loose movement .
 
----
 
-##  About Me
-This is my second official hardware repo! Messing around with CAD timelines and PCB footprints has been a journey, but seeing it all come together is awesome. 
+
 
 ## BOM
 [Thermometer.csv](https://github.com/user-attachments/files/28411570/Thermometer.csv)
