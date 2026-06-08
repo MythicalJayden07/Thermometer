@@ -6,7 +6,6 @@ A sleek, handheld digital thermometer project built completely from scratch.
 
 It uses a custom-designed PCB tucked inside a 3D-printed cylindrical case that snaps together without any screws. A neat little OLED screen on the front gives you real-time temperature stats.
 
-I designed this to learn the ropes of hardware engineering, custom PCB routing, and 3D modeling on curved surfaces.
 
 ---
 
